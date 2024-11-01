@@ -1,0 +1,98 @@
+.icon-box {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.icon-box > span {
+  display: inline-block;
+  text-align: center;
+}
+
+.ste-counter-icon-bg-shape-rounded .icon-box {
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ste-counter-icon-bg-shape-square .icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ste-counter-icon-align-center .icon-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ste-counter-icon-align-right .icon-box {
+  margin-left: auto;
+}
+
+.ste-counter .icon-box img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* .ste-counter .count-number {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 700;
+} */
+
+.ste-counter .count-number .ste-counter-init,
+.ste-counter .count-number .counter-prefix,
+.ste-counter .count-number .counter-postfix {
+  font-size: 6.6666rem;
+  font-weight: 500;
+  line-height: 6.6666rem;
+  letter-spacing: -2.4px;
+}
+
+.ste-counter .count-number .counter-prefix {
+  display: inline-block;
+}
+
+.ste-counter .count-number .counter-postfix {
+  display: inline-block;
+}
+
+.ste-counter .count-number .counter-postfix sup {
+  display: inline-block;
+  font-size: 60%;
+  top: -0.7em;
+}
+
+.ste-counter .count-number .counter-postfix sup {
+  top: -0.5em;
+}
+
+.widget .ste-counter .widget-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1080px) {
+  .ste-counter .count-number .ste-counter-init,
+  .ste-counter .count-number .counter-prefix,
+  .ste-counter .count-number .counter-postfix {
+    font-size: 5.6666rem;
+    line-height: 5.6666rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .ste-counter .count-number .ste-counter-init,
+  .ste-counter .count-number .counter-prefix,
+  .ste-counter .count-number .counter-postfix {
+    font-size: 4.6666rem;
+    line-height: 4.6666rem;
+  }
+}

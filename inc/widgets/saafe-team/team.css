@@ -1,0 +1,124 @@
+.ste-team-wrap .swiper-container {
+  overflow: visible;
+}
+
+.ste-team-image-shape-rounded .ste-team-image {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.ste-team-align-center .ste-team-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ste-team-align-right .ste-team-image {
+  margin-left: auto;
+}
+
+.ste-team .ste-team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ste-team-wrap .ste-team-title {
+  margin: 0;
+}
+
+.ste-team-wrap .team-social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ste-team-align-center .ste-team-wrap .team-social {
+  justify-content: center;
+}
+
+.ste-team-align-right .ste-team-wrap .team-social {
+  justify-content: flex-end;
+}
+
+.ste-team-wrap .team-social li {
+  display: inline-block;
+}
+
+.ste-team-wrap .team-social li a {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ste-social-icon-bg-shape-rounded .ste-team-wrap .team-social li a {
+  border-radius: 100%;
+}
+
+.ste-team-layout-overlay .ste-team-wrap {
+  position: relative;
+}
+
+.ste-team-layout-overlay .ste-team-wrap .team-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: -webkit-linear-gradient(
+    180deg,
+    rgba(28, 28, 31, 0) 12.78%,
+    rgba(28, 28, 31, 0.75) 100%
+  );
+  background-image: -moz-linear-gradient(
+    180deg,
+    rgba(28, 28, 31, 0) 12.78%,
+    rgba(28, 28, 31, 0.75) 100%
+  );
+  background-image: -ms-linear-gradient(
+    180deg,
+    rgba(28, 28, 31, 0) 12.78%,
+    rgba(28, 28, 31, 0.75) 100%
+  );
+  background-image: -o-linear-gradient(
+    180deg,
+    rgba(28, 28, 31, 0) 12.78%,
+    rgba(28, 28, 31, 0.75) 100%
+  );
+  background-image: linear-gradient(
+    180deg,
+    rgba(28, 28, 31, 0) 12.78%,
+    rgba(28, 28, 31, 0.75) 100%
+  );
+  padding: 5%;
+}
+
+
+.teamText {
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .ste-team-layout-social-on-right .team-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .ste-team-layout-social-on-right .team-content .designation {
+    grid-column: 1;
+  }
+
+  .ste-team-layout-social-on-right .team-content .team-social {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    justify-content: flex-end;
+  }
+}
+
+

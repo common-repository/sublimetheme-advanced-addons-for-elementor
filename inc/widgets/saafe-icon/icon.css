@@ -1,0 +1,154 @@
+.icon-holder {
+    line-height: 1;
+    margin-bottom: 1.25rem;
+}
+
+.rounded {
+    background: rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.square {
+    background: rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .rounded, 
+.center .square, 
+.center .icon-holder {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right .rounded, 
+.right .square, 
+.right .icon-holder {
+    margin-left: auto;
+}
+
+.icon-holder > span.icon-number {
+    font-weight: 800;
+}
+
+.ste-icon-inner-holder .icon-holder img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ste-icon-inner-holder.center .icon-holder img {
+    margin-left: auto;
+}
+
+.ste-icon-inner-holder.right .icon-holder img {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.ste-icon-holder .text-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.widget .ste-icon-holder .widget-title {
+    font-size: 1.25rem;
+    line-height: 1.35;
+    margin-bottom: 0.625rem;
+    margin-top: 0;
+    color: #1F3047;
+}
+
+.ste-icon-holder .content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3E4B5B;
+}
+
+.ste-icon-holder .content p {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+.ste-icon-holder .content p:last-child {
+    margin-bottom: 0;
+}
+
+.ste-icon-holder.layout_two .ste-icon-inner-holder, 
+.ste-icon-holder.layout_three .ste-icon-inner-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.ste-icon-holder.layout_three .ste-icon-inner-holder {
+    flex-direction: row-reverse;
+}
+
+.ste-icon-holder.layout_two .icon-holder, 
+.ste-icon-holder.layout_three .icon-holder {
+    margin-bottom: 0 !important;
+}
+
+.ste-icon-holder.layout_two .icon-holder + .text-holder, 
+.ste-icon-holder.layout_three .icon-holder + .text-holder {
+    /* width: calc(100% - 2.5em); */
+    flex: 1;
+    padding-left: 20px;
+}
+
+.ste-icon-holder.layout_three .icon-holder + .text-holder {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.ste-icon-holder.layout_four .icon-holder {
+    display: none;
+}
+
+.ste-icon-inner-holder.center {
+    text-align: center;
+}
+
+.ste-icon-inner-holder.center .text-holder {
+    align-items: center;
+}
+
+.ste-icon-inner-holder.right {
+    text-align: right;
+}
+
+.ste-icon-inner-holder.right .text-holder {
+    align-items: flex-end;
+}
+
+.ste-icon-inner-holder .text-holder .ste-icon-button {
+    line-height: 1;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ste-icon-inner-holder .ste-icon-button .ste-icon-left, 
+.ste-icon-inner-holder .ste-icon-button .ste-icon-right {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.ste-icon-inner-holder .text-holder .ste-icon-button svg {
+    display: inline-block;
+    vertical-align: middle;
+}
